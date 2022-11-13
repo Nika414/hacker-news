@@ -1,0 +1,28 @@
+.refresh-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 10%;
+    color: white;
+    background-color: #3C6E71;
+    opacity: 0.4;
+    border-radius: 10px;
+    border: none;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+}
+
+.refresh-button:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.refresh-button:hover .refresh-button__logo {
+    transform: rotate(-360deg);
+    transition: all 1s;
+}

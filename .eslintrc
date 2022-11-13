@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "rules": {
+    "dot-notation": "off",
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_id"
+        ]
+      }
+    ],
+    "linebreak-style": "off",
+    "react/prop-types": [
+      0
+    ]
+  },
+  "env": {
+    "browser": true
+  }
+}

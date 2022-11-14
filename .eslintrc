@@ -5,15 +5,9 @@
   ],
   "rules": {
     "dot-notation": "off",
-    "no-underscore-dangle": [
-      "error",
-      {
-        "allow": [
-          "_id"
-        ]
-      }
-    ],
+    "no-underscore-dangle": "off",
     "linebreak-style": "off",
+    "class-methods-use-this": "off",
     "react/prop-types": [
       0
     ]

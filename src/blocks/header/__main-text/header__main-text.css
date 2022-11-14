@@ -1,0 +1,12 @@
+.header__main-text {
+    width: 100%;
+    font-family: 'Monument Grotesk';
+    font-size: 3.3vw;
+    font-weight: 500;
+    line-height: 0.9;
+    letter-spacing: -0.03em;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    text-align: left;
+}

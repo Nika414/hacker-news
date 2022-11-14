@@ -1,0 +1,10 @@
+.header__title {
+    width: 100%;
+    font-family: 'Monument Grotesk';
+    font-size: 9.3vw;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    margin: 0;
+    margin-top: -50px;
+    text-align: center;
+}

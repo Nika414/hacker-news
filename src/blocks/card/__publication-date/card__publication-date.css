@@ -1,0 +1,6 @@
+.card__publication-date {
+    color: var(--color-grey);
+    margin: 0 35px 0 auto;
+    font-size: 1.9vw;
+    margin: 5px 35px 15px auto;
+}

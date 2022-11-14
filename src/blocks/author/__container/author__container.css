@@ -1,0 +1,9 @@
+.author__container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--color-grey);
+    margin: auto 35px 0 auto;
+    font-size: 1.9vw;
+}

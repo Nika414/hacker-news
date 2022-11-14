@@ -1,15 +1,28 @@
 @import url(./vendor/normalize.css);
-@import url(./vendor/fonts/OpenSans.css);
+@import url(./vendor/fonts/Monument-Grotesk.css);
 @import url(./vendor/variables.css);
 @import url(./blocks/root/root.css);
 
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/header/__main-text/header__main-text.css);
+@import url(./blocks/header/__span/_place_right/header__span_place_right.css);
+@import url(./blocks/header/__main-text-container/header__main-text-container.css);
 
 @import url(./blocks/main/main.css);
+@import url(./blocks/main/__title/main__title.css);
 
 @import url(./blocks/card/card.css);
+@import url(./blocks/card/__title/card__title.css);
+@import url(./blocks/card/__publication-info/card__publication-info.css);
+@import url(./blocks/card/__publication-date/card__publication-date.css);
 
-@import url(./blocks/root/root.css);
+@import url(./blocks/rating/__container/rating__container.css);
+@import url(./blocks/rating/__amount/rating__amount.css);
+@import url(./blocks/rating/__logo/rating__logo.css);
+@import url(./blocks/author/__container/author__container.css);
+@import url(./blocks/author/__logo/author__logo.css);
+@import url(./blocks/author/__text/author__text.css);
 
 @import url(./blocks/refresh-button/refresh-button.css);

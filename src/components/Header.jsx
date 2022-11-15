@@ -1,6 +1,7 @@
 import React from 'react';
+import ScrollButton from './ScrollButton';
 
-export default function Header() {
+export default function Header({ onScroll }) {
   return (
     <div className="header">
       <svg fill="#ff6600" className="header__logo" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
@@ -15,6 +16,7 @@ export default function Header() {
         <p className="header__main-text">Anything that gratifies</p>
         <p className="header__main-text">One&#8217;s intellectual curiosity.</p>
       </div>
+      <ScrollButton onScroll={onScroll} />
     </div>
   );
 }

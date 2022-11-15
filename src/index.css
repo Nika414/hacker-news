@@ -33,6 +33,64 @@
 @import url(./blocks/scroll-button/__rings/scroll-button__rings.css);
 @import url(./blocks/pulse/pulse.css);
 
+.news-post__header {
+    border-bottom: 2px solid #ff6600;
+}
 
- 
+.news-post__title {
+    margin: 50px 20px 0px 75px;
+    max-width: 70%;
+    font-size: 3.3vw;
+}
 
+.news-post__header-title {
+    margin: 35px 0 15px 75px;
+    max-width: 70%;
+    text-decoration: none;
+    color: black;  
+}
+
+.news-post__main-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.news-post__publication-date {
+   
+}
+
+.news-post__logo {
+    margin-right: 10px;
+}
+
+.news-post__text {
+    margin-right: 10px;
+}
+
+.news-post__link {
+    width:100%;
+    padding: 0 0 20px 75px;
+}
+
+.news-post__additional-info {
+    display: flex;
+    margin-left: 75px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.news-post__comments-title {
+    margin: 30px 0 30px 75px;
+    font-size: 2.3vw;
+}
+
+.news-post__header-link{
+    text-decoration: none;
+}
+
+.comments__container {
+    width: 90%;
+    height: fit-content;
+}

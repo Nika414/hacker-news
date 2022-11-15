@@ -8,7 +8,6 @@
     margin: auto 0 25px 0;
     justify-content: center;
     cursor: pointer;
-    scroll-behavior: smooth;
     position: relative;
     background-color: transparent;
     border: 2px solid #ff6600;

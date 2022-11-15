@@ -17,6 +17,20 @@ export class Api {
     })
       .then((res) => this._handleResponse(res));
   }
+
+  getCardInfo(itemId) {
+    return fetch(`${this._baseUrl}/item/${itemId}.json`, {
+      headers: this._headers,
+    })
+      .then((res) => this._handleResponse(res));
+  }
+
+  getComment(commentId) {
+    return fetch(`${this._baseUrl}/item/${commentId}.json`, {
+      headers: this._headers,
+    })
+      .then((res) => this._handleResponse(res));
+  }
 }
 
 const api = new Api(options);

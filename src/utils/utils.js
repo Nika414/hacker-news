@@ -8,3 +8,7 @@ const options = {
 };
 
 export default options;
+
+const createMarkup = (markup) => ({ __html: markup });
+
+export { createMarkup };

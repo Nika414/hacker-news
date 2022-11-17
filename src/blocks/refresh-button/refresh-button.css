@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    width: 10%;
+    width: 100px;
+    box-sizing: content-box;
     color: white;
-    background-color:#ff6600;
+    background-color: var(--color-main-orange);
     opacity: 0.4;
     border-radius: 10px;
     border: none;

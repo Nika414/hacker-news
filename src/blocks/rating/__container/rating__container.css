@@ -3,6 +3,6 @@
     display: flex;
     align-items: center;
     padding-left: 35px;
-    color: var(--color-grey);
+    color: var(--color-gray);
     font-size: 1.9vw;
 }

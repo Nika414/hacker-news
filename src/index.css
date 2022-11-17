@@ -34,20 +34,24 @@
 @import url(./blocks/pulse/pulse.css);
 
 .news-post__header {
-    border-bottom: 2px solid #ff6600;
+    border-bottom: 2px solid var(--color-main-orange);
+}
+
+.news-post__container {
+    padding: 0 10% 0 10%;
 }
 
 .news-post__title {
-    margin: 50px 20px 0px 75px;
+    margin: 50px 20px 0px 0;
     max-width: 70%;
-    font-size: 3.3vw;
+    font-size: 32px;
 }
 
 .news-post__header-title {
     margin: 35px 0 15px 75px;
     max-width: 70%;
     text-decoration: none;
-    color: black;  
+    color: black;
 }
 
 .news-post__main-info {
@@ -55,11 +59,10 @@
     align-items: flex-end;
     justify-content: flex-start;
     margin-bottom: 20px;
+    width: 100%;
 }
 
-.news-post__publication-date {
-   
-}
+.news-post__publication-date {}
 
 .news-post__logo {
     margin-right: 10px;
@@ -69,28 +72,80 @@
     margin-right: 10px;
 }
 
+.news-post__post {
+    margin: 35px 0 15px 0;
+    font-size: 18px;
+}
+
 .news-post__link {
-    width:100%;
-    padding: 0 0 20px 75px;
+    width: 100%;
+    padding: 0 0 20px 0;
 }
 
 .news-post__additional-info {
     display: flex;
-    margin-left: 75px;
+    margin: 0;
     justify-content: flex-start;
     gap: 20px;
 }
 
 .news-post__comments-title {
-    margin: 30px 0 30px 75px;
-    font-size: 2.3vw;
+    margin: 30px 10% 30px 10%;
+    font-size: 24px;
 }
 
-.news-post__header-link{
+.news-post__header-link {
     text-decoration: none;
 }
 
 .comments__container {
-    width: 90%;
+    width: 80%;
     height: fit-content;
+    margin: auto;
+}
+
+.comment__container {
+    height: fit-content;
+    width: 100%;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+
+.comment__info {
+    display: flex;
+    padding: 10px;
+}
+
+.comment__author {
+    font-weight: 500;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.comment__text {
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    font-size: 16px;
+}
+
+.comment__date {
+    letter-spacing: 0.05em;
+    font-size: 18px;
+}
+
+.news-post__comments-empty {
+    padding: 0 10% 0 10%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid var(--color-main-orange);
+    margin: 130px 10% 30px 10%;
+}
+
+.footer__copyrights {
+    margin: 0;
 }

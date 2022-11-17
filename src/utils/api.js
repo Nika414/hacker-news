@@ -11,22 +11,22 @@ export class Api {
     throw new Error('Произошла ошибка!');
   }
 
-  getCardsInfo() {
-    return fetch(`${this._baseUrl}${'newstories.json'}`, {
+  getCardsIds() {
+    return fetch(`${this._baseUrl}newstories.json`, {
       headers: this._headers,
     })
       .then((res) => this._handleResponse(res));
   }
 
   getCardInfo(itemId) {
-    return fetch(`${this._baseUrl}/item/${itemId}.json`, {
+    return fetch(`${this._baseUrl}item/${itemId}.json`, {
       headers: this._headers,
     })
       .then((res) => this._handleResponse(res));
   }
 
   getComment(commentId) {
-    return fetch(`${this._baseUrl}/item/${commentId}.json`, {
+    return fetch(`${this._baseUrl}item/${commentId}.json`, {
       headers: this._headers,
     })
       .then((res) => this._handleResponse(res));

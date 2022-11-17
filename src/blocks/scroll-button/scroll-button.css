@@ -10,6 +10,6 @@
     cursor: pointer;
     position: relative;
     background-color: transparent;
-    border: 2px solid #ff6600;
+    border: 2px solid var(--color-main-orange);
     padding: 0;
 }

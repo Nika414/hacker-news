@@ -1,5 +1,5 @@
 .scroll-button__rings {
-    border: 1px solid #ff6600;
+    border: 1px solid var(--color-main-orange);
     position: absolute;
     top: 0;
     left: 0;

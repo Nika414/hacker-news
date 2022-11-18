@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2dc8e3ac.css",
-    "main.js": "/static/js/main.a2b8af1a.js",
-    "static/media/background.jpg": "/static/media/background.7ed420a809d0023da968.jpg",
-    "static/media/MonumentGrotesk-Medium.woff": "/static/media/MonumentGrotesk-Medium.7e51b1d2d03a5c1bb2cc.woff",
-    "static/media/MonumentGrotesk-Regular.woff": "/static/media/MonumentGrotesk-Regular.ea373644ecfa90551671.woff",
-    "static/media/MonumentGrotesk-Medium.woff2": "/static/media/MonumentGrotesk-Medium.203e5c2915749814edb8.woff2",
-    "static/media/MonumentGrotesk-Regular.woff2": "/static/media/MonumentGrotesk-Regular.366121b63755af51343c.woff2",
-    "index.html": "/index.html",
-    "main.2dc8e3ac.css.map": "/static/css/main.2dc8e3ac.css.map",
-    "main.a2b8af1a.js.map": "/static/js/main.a2b8af1a.js.map"
+    "main.css": "/hacker-news/static/css/main.3637d20d.css",
+    "main.js": "/hacker-news/static/js/main.ffceae5a.js",
+    "static/media/background.jpg": "/hacker-news/static/media/background.7ed420a809d0023da968.jpg",
+    "static/media/MonumentGrotesk-Medium.woff": "/hacker-news/static/media/MonumentGrotesk-Medium.7e51b1d2d03a5c1bb2cc.woff",
+    "static/media/MonumentGrotesk-Regular.woff": "/hacker-news/static/media/MonumentGrotesk-Regular.ea373644ecfa90551671.woff",
+    "static/media/MonumentGrotesk-Medium.woff2": "/hacker-news/static/media/MonumentGrotesk-Medium.203e5c2915749814edb8.woff2",
+    "static/media/MonumentGrotesk-Regular.woff2": "/hacker-news/static/media/MonumentGrotesk-Regular.366121b63755af51343c.woff2",
+    "index.html": "/hacker-news/index.html",
+    "main.3637d20d.css.map": "/hacker-news/static/css/main.3637d20d.css.map",
+    "main.ffceae5a.js.map": "/hacker-news/static/js/main.ffceae5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dc8e3ac.css",
-    "static/js/main.a2b8af1a.js"
+    "static/css/main.3637d20d.css",
+    "static/js/main.ffceae5a.js"
   ]
 }

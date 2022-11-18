@@ -1,0 +1,7 @@
+.news-post__main-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}

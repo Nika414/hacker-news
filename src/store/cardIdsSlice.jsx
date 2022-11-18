@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import { createSlice } from '@reduxjs/toolkit';
 
 const cardIdsSlice = createSlice({
@@ -7,7 +8,7 @@ const cardIdsSlice = createSlice({
   },
   reducers: {
     renderCardIds(state, action) {
-      state.cardIds.push(...action.payload);
+      state.cardIds = action.payload;
       console.log(action.payload);
     },
   },

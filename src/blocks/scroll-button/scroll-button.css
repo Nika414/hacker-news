@@ -13,3 +13,11 @@
     border: 2px solid var(--color-main-orange);
     padding: 0;
 }
+
+@media screen and (max-width:600px) {
+    .scroll-button {
+        width: 100px;
+        height: 100px;
+        margin: auto 0 50px 0;
+    }
+}

@@ -1,6 +1,5 @@
 .header__main-text {
     width: 100%;
-    font-family: 'Monument Grotesk';
     font-size: 3.3vw;
     font-weight: 500;
     line-height: 0.9;
@@ -9,4 +8,10 @@
     text-align: center;
     padding: 0;
     text-align: left;
+}
+
+@media screen and (max-width:600px) {
+    .header__main-text {
+        font-size: 5.3vw;
+    }
 }

@@ -1,17 +1,17 @@
-/* eslint-disable react/jsx-props-no-spreading */
-/* eslint-disable no-debugger */
-/* eslint-disable no-unused-vars */
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+/* eslint-disable react/jsx-no-useless-fragment */
+import React from 'react';
+import { useSelector } from 'react-redux';
 import Card from './Card';
-import { renderCards } from '../store/cardsSlice';
-import api from '../utils/api';
+import Loader from './Loader';
 
-export default function CardList({ onCardClick }) {
-  const cards = useSelector((state) => state.cards.cards);
-  const dispatch = useDispatch();
-  console.log(cards);
-  return cards
-    // eslint-disable-next-line react/no-array-index-key
-    .map((card, i) => <Card key={i} cardId={card.id} onCardClick={onCardClick} card={card} />);
+export default function CardList({ onCardClick, isLoading }) {
+  const cardIds = useSelector((state) => state.cardIds.cardIds);
+  return (
+    <>
+      {isLoading ? <Loader /> : (cardIds
+      // eslint-disable-next-line react/no-array-index-key
+        .map((cardId) => <Card key={cardId} cardId={cardId} onCardClick={onCardClick} />))}
+
+    </>
+  );
 }

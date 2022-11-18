@@ -69,7 +69,7 @@ function App() {
   return (
     <div className="root">
       <Switch>
-        <Route exact path="/hacker-news">
+        <Route exact path="/">
           <Header name="Hacker News" onScroll={handleScroll} />
           <Main ref={main} onCardClick={handleCardClick} isLoading={isLoading} />
           <RefreshButton onClick={handleRefresh} name="Refresh" />

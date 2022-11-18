@@ -38,7 +38,7 @@ export default function NewsPost() {
   return (
     <div className="news-post">
       <div className="news-post__header">
-        <Link className="news-post__header-link" to="/hacker-news">
+        <Link className="news-post__header-link" to="/">
           <svg fill="var(--color-main-orange)" className="header__logo" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
             <title>hackernews</title>
             <path d="M0 0v512h512v-512h-512zM272 292v108h-32v-108l-87.5-164h36.3l67.2 126 67.2-126h36.3l-87.5 164z" />

@@ -9,7 +9,6 @@ const cardIdsSlice = createSlice({
   reducers: {
     renderCardIds(state, action) {
       state.cardIds = action.payload;
-      console.log(action.payload);
     },
   },
 });

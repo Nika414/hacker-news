@@ -1,6 +1,6 @@
 {
   "name": "hacker-news",
-  "homepage":"https://nika414.github.io/hacker-news",
+  "homepage": "http://localhost:3000/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,9 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint": "yarn run eslint",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "lint": "yarn run eslint"
   },
   "eslintConfig": {
     "extends": [
@@ -51,7 +49,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.10",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^4.0.0"
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }

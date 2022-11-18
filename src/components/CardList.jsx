@@ -9,9 +9,7 @@ export default function CardList({ onCardClick, isLoading }) {
   return (
     <>
       {isLoading ? <Loader /> : (cardIds
-      // eslint-disable-next-line react/no-array-index-key
         .map((cardId) => <Card key={cardId} cardId={cardId} onCardClick={onCardClick} />))}
-
     </>
   );
 }

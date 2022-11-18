@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Веб-приложение: HackerNews
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Веб-сервис для просмотра новостей
 
 ## Available Scripts
 

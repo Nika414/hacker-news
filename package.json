@@ -1,6 +1,6 @@
 {
-  "name": "avito-test",
-  "homepage": "/",
+  "name": "hacker-news",
+  "homepage":"https://nika414.github.io/hacker-news",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,9 +1,8 @@
-/* eslint-disable consistent-return */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-use-before-define */
 /* eslint-disable react/jsx-no-bind */
+/* eslint-disable consistent-return */
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useRef, useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { Route, Switch, useHistory } from 'react-router-dom';
 
 import Header from './Header';
@@ -28,26 +27,18 @@ function App() {
       })
       .finally(() => setIsLoading(false));
   }
-  // const cardIds = useSelector((state) => state.cardIds.cardIds);
 
   useEffect(() => {
-    // const interval = setInterval(() => { getContent(); }, 10000);
-    // return () => {
-    //   clearInterval(interval);
-    // };
     getContent();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const useInterval = (callback, delay) => {
     const savedCallback = useRef();
 
-    // Запоминаем последнюю функцию
     useEffect(() => {
       savedCallback.current = callback;
     }, [callback]);
 
-    // Устанавливаем интервал
     useEffect(() => {
       const interval = () => {
         savedCallback.current();
@@ -60,7 +51,6 @@ function App() {
     }, [delay]);
   };
   useInterval(() => {
-    // Любая твоя логика тут
     setIsLoading();
     getContent();
   }, 10000);
@@ -79,7 +69,7 @@ function App() {
   return (
     <div className="root">
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/hacker-news">
           <Header name="Hacker News" onScroll={handleScroll} />
           <Main ref={main} onCardClick={handleCardClick} isLoading={isLoading} />
           <RefreshButton onClick={handleRefresh} name="Refresh" />

@@ -15,6 +15,7 @@
 Собирает приложение для продакшена в папку `build`.
 
 ## Использованные технологии
-* React (React Create App) - функциональные компоненты, хуки (useState, useEffect), рефы, управляемые компоненты, REST API, React router (Route, Switch, useHistory).
-* Redux.
-* CSS (адаптивная верстка).
+* React (React Create App) - функциональные компоненты, хуки (useState, useEffect), рефы(forwardRef), REST API, React router (Route, Switch, useHistory).
+* Redux (react-redux, reduxjs/toolkit);
+* React-moment - для работы с датами;
+* CSS (flex, адаптивная верстка);
